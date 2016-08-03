@@ -17,7 +17,7 @@ int main()
 	Intersection s;
 	vector<int> res(s.getIntersect(v1, v2));
 	for (int i = 0, len = res.size(); i < len; i++)
-		cout << res[i] <<'\n;
+		cout << res[i] << ' ';
 	cout << '\n';
     return 0;
 }
